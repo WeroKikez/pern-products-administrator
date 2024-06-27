@@ -37,7 +37,7 @@ const ProductDetails = ({product} : ProductDetailsProps) => {
                     type="submit"
                     name="id"
                     value={product.id}
-                    className={`${isAvailable ? 'text-black' : 'text-red-600'} rounded-lg p-2 uppercase font-bold text-xs w-full border border-black-100 hover:cursor-pointer`}
+                    className={`${isAvailable ? 'bg-green-600' : 'bg-orange-600'} text-white rounded-lg p-2 uppercase font-bold text-xs w-full hover:cursor-pointer max-w-xs`}
                 >
                     {isAvailable ? 'Disponible' : 'No Disponible'}
                 </button>
